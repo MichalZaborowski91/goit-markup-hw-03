@@ -1,0 +1,121 @@
+:root {
+  --hilight-color: #2196f3;
+  --text-color: #212121;
+  --uppercontacts-color: #757575;
+  --address-color: #ffffff99;
+  --logo-color: #000000;
+  --buttons-color: #f5f4fa;
+  --headerbackground-color: #ffffff;
+  --akcent-color: #2f303a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  font-size: 14px;
+}
+.logo {
+  font-family: "Railway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.logo .color {
+  color: var(--hilight-color);
+}
+.logo .color-upper {
+  color: var(--logo-color);
+}
+.logo .color-lower {
+  color: var(--headerbackground-color);
+}
+
+.interactive-elements [type="button"] {
+  background-color: var(--buttons-color);
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  font-family: "Roboto";
+}
+.interactive-elements .main-button {
+  background-color: var(--buttons-color);
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  font-family: "Roboto";
+}
+.interactive-elements [type="button"]:hover,
+.interactive-elements [type="button"]:focus {
+  background-color: var(--hilight-color);
+  cursor: pointer;
+  color: #ffffff;
+}
+.contacts {
+  text-decoration: none;
+  color: var(--uppercontacts-color);
+  font-weight: 500;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--hilight-color);
+}
+.address > p {
+  color: var(--headerbackground-color);
+  font-style: normal;
+}
+.address > a {
+  color: var(--address-color);
+  font-style: normal;
+}
+
+.navigation-elements {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+.navigation-elements:hover,
+.navigation-elements:focus {
+  color: var(--hilight-color);
+}
+.team p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.team span {
+  color: var(--uppercontacts-color);
+}
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffffff;
+}
+.second-header {
+  font-size: 36px;
+  font-weight: 700;
+}
+.fourth-header {
+  font-weight: 700;
+}
+
+.random-text p {
+  color: var(--uppercontacts-color);
+  line-height: 1.714;
+}
+.portfolio p {
+  font-weight: 700;
+  font-size: 18px;
+}
+.portfolio span {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--uppercontacts-color);
+}
+.header {
+  background-color: var(--headerbackground-color);
+}
+.footer {
+  background-color: var(--akcent-color);
+}
+.background {
+  background-color: var(--akcent-color);
+}
