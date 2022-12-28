@@ -274,15 +274,17 @@ h4 {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 30px;
   margin: 0 auto;
   padding-left: 0;
 }
 .portfolio-list {
-  flex-basis: calc((100% - 2 * 15px) / 3);
+  flex-basis: ((100% - 2 * 30px)/3);
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 figure {
   margin: 0 auto;
+}
+.portfolio {
+  border-bottom: 1px solid #eeeeee;
 }
