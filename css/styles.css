@@ -14,6 +14,10 @@ body {
   font-size: 14px;
   width: 1600px;
 }
+.container {
+  max-width: 1200px;
+  margin-left: 215px;
+}
 .header .logo {
   font-family: "Railway", sans-serif;
   font-weight: 700;
@@ -38,6 +42,11 @@ body {
 }
 .logo .color {
   color: var(--hilight-color);
+  font-family: "oleo script";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35, 96px;
+  letter-spacing: 0.03em;
 }
 .logo .color-upper {
   color: var(--logo-color);
@@ -235,10 +244,7 @@ h4 {
   align-items: flex-end;
   gap: 50px;
 }
-.container {
-  max-width: 1200px;
-  margin-left: 215px;
-}
+
 .card-set {
   list-style: none;
   display: flex;
