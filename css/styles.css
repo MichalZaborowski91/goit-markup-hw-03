@@ -45,6 +45,11 @@ body {
 .logo .color-lower {
   color: var(--headerbackground-color);
 }
+.interactive-elements-2 .main-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .interactive-elements-2 {
   list-style: none;
   letter-spacing: 0.06em;
@@ -72,6 +77,7 @@ body {
   width: 121px;
   height: 38px;
 }
+
 .background .main-button {
   box-sizing: content-box;
   background-color: var(--buttons-color);
@@ -144,6 +150,8 @@ body {
 .team .work {
   color: var(--uppercontacts-color);
   text-align: center;
+  font-size: 16px;
+  font-weight: 400;
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -229,6 +237,7 @@ h4 {
 }
 .container {
   max-width: 1200px;
+  margin-left: 215px;
 }
 .card-set {
   list-style: none;
