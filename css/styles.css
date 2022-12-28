@@ -233,6 +233,7 @@ h4 {
 }
 .container {
   max-width: 1200px;
+  padding: 0;
   margin: 94px 215px;
 }
 .card-set {
@@ -273,11 +274,12 @@ h4 {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 15px;
   margin: 0 auto;
+  padding-left: 0;
 }
 .portfolio-list {
-  flex-basis: calc((100% - 2 * 30px) / 3);
+  flex-basis: calc((100% - 2 * 15px) / 3);
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
