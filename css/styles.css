@@ -45,14 +45,14 @@ body {
 .logo .color-lower {
   color: var(--headerbackground-color);
 }
-.interactive-elements-2 .main-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .interactive-elements-2 {
   list-style: none;
   letter-spacing: 0.06em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .interactive-elements-2 [type="button"]:hover,
 .interactive-elements-2 [type="button"]:focus {
