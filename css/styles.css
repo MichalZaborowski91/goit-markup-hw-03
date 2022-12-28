@@ -48,13 +48,32 @@ body {
 .logo .color-lower {
   color: var(--headerbackground-color);
 }
-
+.interactive-elements-2 {
+  list-style: none;
+  letter-spacing: 0.06em;
+}
+.interactive-elements-2 [type="button"]:hover,
+.interactive-elements-2 [type="button"]:focus {
+  background-color: var(--hilight-color);
+  cursor: pointer;
+  color: #ffffff;
+}
+.interactive-elements {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
 .interactive-elements [type="button"] {
   background-color: var(--buttons-color);
   font-weight: 500;
   font-size: 16px;
   border: none;
   font-family: "Roboto";
+  border-radius: 4px;
+  width: 121px;
+  height: 38px;
 }
 .background .main-button {
   box-sizing: content-box;
@@ -175,11 +194,14 @@ h4 {
 .portfolio p {
   font-weight: 700;
   font-size: 18px;
+  margin: 0;
+  padding: 20px 24px 4px;
 }
 .portfolio span {
   font-weight: 400;
   font-size: 16px;
   color: var(--uppercontacts-color);
+  padding: 0px 24px 20px;
 }
 .header {
   display: flex;
@@ -207,6 +229,7 @@ h4 {
 }
 .container {
   max-width: 1200px;
+  margin: 94px 215px;
 }
 .card-set {
   list-style: none;
@@ -233,9 +256,28 @@ h4 {
   margin-bottom: 98px;
 }
 .team-card {
-  flex-basis: calc((100% - 3 * 30px) / 4);
+  flex-basis: calc((100% - 3 * 30px) / 3);
   border: 1px solid black;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin: 0;
+  background: #ffffff;
+  padding: 0;
+}
+.portfolio-card {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+.portfolio-list {
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  border: 1px solid black;
+}
+figure {
+  margin: 0 0 20px 0;
+  padding: 0;
 }
