@@ -33,7 +33,6 @@ body {
   display: flex;
   text-decoration: none;
   justify-content: flex-start;
-  padding-right: 1240px;
   padding-top: 60px;
   margin-bottom: 20px;
 }
@@ -85,7 +84,6 @@ body {
   width: 200px;
   height: 50px;
   border-radius: 4px;
-  margin-left: 700px;
   margin-top: 30px;
   padding: 0 0;
 }
@@ -107,14 +105,13 @@ body {
 .address > p {
   color: var(--headerbackground-color);
   font-style: normal;
-  padding-left: 215px;
   margin-bottom: 9px;
+  margin-top: 0;
 }
 .address > a {
   color: var(--address-color);
   font-style: normal;
   display: block;
-  padding-left: 215px;
   margin-bottom: 9px;
 }
 
@@ -159,7 +156,7 @@ h1 {
   letter-spacing: 0.06em;
   display: flex;
   justify-content: center;
-  padding: 200px 452px 0;
+  align-items: center;
   margin: 0;
 }
 h2 {
