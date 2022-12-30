@@ -271,12 +271,12 @@ h4 {
 .card {
   flex-basis: ((100% - 2 * 30)/3);
 }
+
 .team-background {
   width: 1600px;
   height: 648px;
   background-color: #f5f4fa;
 }
-
 .team-card-set {
   list-style: none;
   display: flex;
